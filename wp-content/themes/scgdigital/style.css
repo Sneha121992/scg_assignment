@@ -1,0 +1,330 @@
+/*
+Theme Name: Scgdigital
+Author: Sneha Mane
+Description: Custom Theme for SCG Digital
+Version: 0.0.1
+*/
+
+
+   header .item {
+  height: 100vh;
+  position: relative;
+}
+header .item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+header .item .cover {
+  padding: 75px 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+header .item .cover .header-content {
+  position: relative;
+  padding: 56px;
+  overflow: hidden;
+}
+header .item .cover .header-content .line {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border: 9px solid #fff;
+  -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+}
+header .item .cover .header-content h2 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #fff;
+}
+header .item .cover .header-content h1 {
+  font-size: 56px;
+  font-weight: 600;
+  margin: 5px 0 20px;
+  word-spacing: 3px;
+  color: #fff;
+}
+header .item .cover .header-content h4 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+header .owl-item.active h1 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+header .owl-item.active h2 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+  animation-delay: 0.3s;
+}
+header .owl-item.active h4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+  animation-delay: 0.3s;
+}
+header .owl-item.active .line {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-name: fadeInLeft;
+  animation-delay: 0.3s;
+}
+header .owl-nav .owl-prev {
+  position: absolute;
+  left: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+header .owl-nav .owl-prev span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-prev:focus {
+  outline: 0;
+}
+header .owl-nav .owl-prev:hover {
+  background: #000 !important;
+}
+header .owl-nav .owl-next {
+  position: absolute;
+  right: 15px;
+  top: 43%;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+  background: rgba(0, 0, 0, 0.5) !important;
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  border-radius: 0;
+}
+header .owl-nav .owl-next span {
+  font-size: 1.6875rem;
+  color: #fff;
+}
+header .owl-nav .owl-next:focus {
+  outline: 0;
+}
+header .owl-nav .owl-next:hover {
+  background: #000 !important;
+}
+header:hover .owl-prev {
+  left: 0px;
+  opacity: 1;
+}
+header:hover .owl-next {
+  right: 0px;
+  opacity: 1;
+}
+
+/*
+map*/
+
+.map iframe{
+	width: 100%;
+}
+
+/*content Carousel */
+#carouselExampleControls {
+	width:100% !important;
+}
+.carousel-item .img-fluid {
+  width:100%;
+  height:100%;
+}
+/*menu */
+.dropdown-toggle::after{
+    border-top: none !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .dummy-text{
+      color: red;
+  }
+  .circle{
+      width: 50px;
+      height: 50px;
+      border-radius:50%;
+      background-color: gray; 
+  }
+ 
+ .icon-background {
+    color: #c0ffc0 !important;
+}
+.nested {
+	background-color: gray; 
+	height: 500px;
+	width: 	100%;
+}
+.nestedChild {
+	background-color: black; 
+	height: 80%;
+	width: 	80%;
+	margin: 5% 10%;
+
+}
+.contactSec p{
+	color: white;	
+}
+
+.footer {
+	width:100%;
+	height:150px;
+	background-color: black; 
+	font-color: white;	
+}
+.footer h2{
+	color: white;
+}
+.footer p{
+	color: white;
+}
+footer .container-fluid{
+	width:105%;
+
+}
+.contactSec{
+	text-align: center; 	
+}
+.text-center {
+	text-align: center; 
+}
+.red{
+	color:red;.contactSec{
+
+	}
+
+.dropdown-toggle::after{
+    border-top: none !important;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  .dummy-text{
+      color: red;
+  }
+  .circle{
+      width: 50px;
+      height: 50px;
+      border-radius:50%;
+      background-color: gray; 
+  }
+.contactSec a{
+color: inherit !important;
+}  
+
+/* logo & Footer CSS*/
+.dummy-footer-text{
+    line-height: 2px;
+    font-size: 13px;
+}
+.footer-info{
+    line-height: 6px;
+    
+
+}
+.footer-wrap{
+    background-color: black;
+    padding-top: 17px;
+}
+
+.box{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+.all-box{
+    padding-bottom: 10px;
+}
+
+
+@media (min-width: 992px){
+
+    .dummy-footer-text{
+        line-height: 0px;
+        font-size: 12px;
+    }
+    .footer-info{
+        line-height: 0px;
+        
+    
+    }
+
+}
+@media (min-width: 768px){
+
+    .dummy-footer-text{
+        line-height: 0px;
+        font-size: 12px;
+    }
+    .footer-info{
+        line-height: 0px;
+        
+    
+    }
+
+}
+@media (max-width: 576px){
+
+    .dummy-footer-text{
+        line-height: 10px;
+        font-size: 12px;
+    }
+    .footer-info{
+        line-height: 10px;
+        
+    
+    }
+    .contact{
+        line-height: 16px;
+    }
+
+}
+.nestedBlock{
+	background-color: gray;
+}
