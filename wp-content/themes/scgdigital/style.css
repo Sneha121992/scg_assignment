@@ -252,7 +252,6 @@ footer .container-fluid{
 .contactSec a{
 color: inherit !important;
 }  
-
 /* logo & Footer CSS*/
 .dummy-footer-text{
     line-height: 2px;
@@ -326,5 +325,8 @@ color: inherit !important;
 
 }
 .nestedBlock{
-	background-color: gray;
+  background-color: gray;
+}
+.textwidget{
+  width:100%;
 }

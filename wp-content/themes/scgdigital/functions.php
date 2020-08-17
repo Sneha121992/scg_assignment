@@ -7,7 +7,7 @@
 
 /*Enque Stylesheet */
 wp_enqueue_style( 'style', get_stylesheet_uri() );
-wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css',false,'4.5','all');
+wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css',false,'4.4','all');
 wp_enqueue_style( 'bootstrap-grid', get_template_directory_uri() . '/assets/css/bootstrap-grid.min.css',false,'4.5','all');
 wp_enqueue_style( 'bootstrap-rebbot', get_template_directory_uri() . '/assets/css/bootstrap-reboot.min.css',false,'4.5','all');
 wp_enqueue_style( 'slider-css', get_template_directory_uri() . '/assets/css/skdslider.css',false,'4.5','all');

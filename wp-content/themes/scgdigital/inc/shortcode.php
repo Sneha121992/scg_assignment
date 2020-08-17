@@ -16,8 +16,10 @@ function show_testimonial_carousel() {
   	<?php $message.="<div class='carousel-item active' >
       <div style='height: 300px;background-color: #4C4A49;'></div>
       <div class='carousel-caption d-none d-md-block'>
-    <h5>".get_the_title()."</h5>
+    <h5 class='pb-5' style='color:black;'>".get_the_title()."</h5>
+    <i class='fa fa-quote-right' aria-hidden='true'></i>
     <p>".get_the_content()."</p>
+    <span>".get_field("author",get_the_ID())." </span>
     </div>
     </div>";  ?>
     <?php endif; ?>
@@ -25,8 +27,10 @@ function show_testimonial_carousel() {
     <?php $message.="<div class='carousel-item ' >
       <div style='height: 300px;background-color: #4C4A49;'></div>
       <div class='carousel-caption d-none d-md-block'>
-    <h5>".get_the_title()."</h5>
+    <h5 class='pb-5' style='color:black;'>".get_the_title()."</h5>
+    <i class='fa fa-quote-right' aria-hidden='true'></i>
     <p>".get_the_content()."</p>
+    <span>".get_field("author",get_the_ID())." </span>
     </div>
     </div>";  ?>
       <?php endwhile; 

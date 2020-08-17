@@ -50,7 +50,6 @@
 
 </section>
 
-
  <?php
      the_content();
   ?>
